@@ -1,0 +1,10 @@
+[package]
+name = "fabric_api"
+version = "0.165.0+26.3"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+# TODO: wit-bindgen u otras segun docs/mods.md de Horizon
